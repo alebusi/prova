@@ -1,52 +1,50 @@
-.bianco {
-    display: inline-block;
-    width: 10vw;
-    text-align: center;
-    font-family: Arial, Sans-Serif;
-    font-size: 6vw;
-    font-weight: bold;
-    letter-spacing: -2px;
-    padding: 2vw 0;
-    background-color: white;
-}
-
-.giallo {
-    display: inline-block;
-    width: 10vw;
-    text-align: center;
-    font-family: Arial, Sans-Serif;
-    font-size: 6vw;
-    font-weight: bold;
-    letter-spacing: -2px;
-    padding: 2vw 0;
-    background-color: yellow;
-}
-
-.griglia {
-    border-collapse: collapse;
-}
-
-.griglia td {
-   width: 32vw;
-   border: solid 1vw red;
+html, body {
+    background-color: black;
+    color: white;
+    /*overflow: hidden */
 }
 
 .tastiera {
-    width: 82vw;
-    margin: 2vh auto;
+    top: 100px;
+    left: 50%;
+    position: absolute;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
 }
 
 .tasto {
     display: inline-block;
-    margin: 2vw;
-    width: 12vw;
+    width: 160px;
+    height: 160px;
     text-align: center;
     font-family: Arial, Sans-Serif;
-    font-size: 6vw;
-    font-weight: bold;
-    letter-spacing: -2px;
-    padding: 2vw 0;
-    background-color: white;
+    font-size: 100px;
 }
 
-.tasto:hover {background-color: yellow;}
+.tasto:hover {
+  animation: mymoveSelection 2s;
+}
+
+@keyframes mymoveSelection {
+  0%   {background-color: orange;}
+  100% {background-color: black;}
+}
+
+#testo {
+  width: 80vw;
+  top: 1160px;
+  left: 10vw;
+  position: absolute;
+  margin-bottom: 10vh;
+  font-family: Arial, Sans-Serif;
+  font-size: 32px;
+}
+
+.bottone {
+  width: 80px;
+  height: 80px;
+  top: 900px;
+  left: 10vw;
+  position: absolute;
+  background-color: orange;
+}
