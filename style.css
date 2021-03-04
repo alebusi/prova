@@ -1,10 +1,12 @@
 html, body {
     background-color: black;
     color: white;
-    /*overflow: hidden */
+    font-family: 'Open Sans', sans-serif;
+    /*overflow: hidden;*/
 }
 
 .tastiera {
+    width: 660px;
     top: 100px;
     left: 50%;
     position: absolute;
@@ -36,8 +38,7 @@ html, body {
   left: 10vw;
   position: absolute;
   margin-bottom: 10vh;
-  font-family: Arial, Sans-Serif;
-  font-size: 32px;
+  font-size: 70px;
 }
 
 .bottone {
