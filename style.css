@@ -19,7 +19,6 @@ html, body {
     width: 160px;
     height: 160px;
     text-align: center;
-    font-family: Arial, Sans-Serif;
     font-size: 100px;
 }
 
@@ -34,6 +33,7 @@ html, body {
 
 #testo {
   width: 80vw;
+  height: 800px;
   top: 1160px;
   left: 10vw;
   position: absolute;
