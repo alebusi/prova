@@ -6,7 +6,7 @@ html, body {
 }
 
 .tastiera {
-    width: 660px;
+    width: 670px;
     top: 100px;
     left: 50%;
     position: absolute;
@@ -16,8 +16,8 @@ html, body {
 
 .tasto {
     display: inline-block;
-    width: 160px;
-    height: 160px;
+    width: 130px;
+    height: 130px;
     text-align: center;
     font-size: 100px;
 }
@@ -48,4 +48,18 @@ html, body {
   left: 10vw;
   position: absolute;
   background-color: orange;
+}
+
+svg {
+    display: inline-block;
+    background-color: black;
+    margin: 20 px;
+    width: 400px;
+    height: 400px;
+}
+
+path {
+    fill: red;
+    stroke: white;
+    stroke-width: 1;
 }
