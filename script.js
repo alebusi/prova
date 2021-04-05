@@ -2,6 +2,9 @@ var intestazione='<svg viewBox="0 0 100 100"> <path d=\"';
 var coda="\" /></svg>";
 var testo="";
 
+function attiva() {
+  a=1;
+}
 function scriviTxt(car) {
   if (car == "x") {
     testo=testo.substring(0, testo.length - 1);
