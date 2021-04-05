@@ -66,3 +66,21 @@ path {
     stroke: white;
     stroke-width: 1;
 }
+.specchietto_cl {
+    position: fixed;
+    background-color: black;
+    padding: 10vw;
+    height: 80vw;
+    left: 90vw;
+    color: white;
+}
+
+.specchietto_cl:hover {
+    left: 60vw;
+    animation: mymoveSelection 2s;
+}
+
+@keyframes mymoveSelection {
+  0%   {background-color: orange;}
+  100% {background-color: black;}
+}
