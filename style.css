@@ -68,10 +68,10 @@ path {
 }
 .specchietto_cl {
     position: fixed;
-    background-color: black;
+    background-color: red;
     padding: 10vw;
     height: 80vw;
-    left: 90vw;
+    left: 70vw;
     color: white;
 }
 
