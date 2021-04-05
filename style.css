@@ -77,7 +77,6 @@ path {
 
 .specchietto_cl:hover {
     left: 60vw;
-    animation: mymoveSelection 2s;
 }
 
 @keyframes mymoveSelection {
