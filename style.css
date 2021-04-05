@@ -6,9 +6,9 @@ html, body {
 }
 
 .tastiera {
-    width: 92vw;
+    width: 70vw;
     top: 100px;
-    left: 50%;
+    left: 30%;
     position: absolute;
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
