@@ -33,6 +33,15 @@ html, body {
     position: fixed;
 }
 
+div:hover {
+  animation: mymoveSelection 1s;
+}
+
+@keyframes mymoveSelection {
+  0%   {background-color: white;}
+  100% {background-color: black;}
+}
+
 .colore, .forma, .stile, .durata {
     position: fixed;
     width: 25vw;
@@ -42,7 +51,7 @@ html, body {
 
 .forma {
     left: 25vw;
-    background-color: yellow;
+    background-color: red;
 }
 
 .stile {
@@ -268,14 +277,6 @@ html, body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
-div:hover {
-  animation: mymoveSelection 1s;
-}
-
-@keyframes mymoveSelection {
-  0%   {background-color: white;}
-  100% {background-color: black;}
 }
 
 /*
