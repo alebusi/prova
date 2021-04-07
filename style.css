@@ -1,14 +1,13 @@
 .specchietto_cl {
     position: fixed;
-    background-color: red;
-    padding: 10vw;
-    height: 80vw;
-    left: 70vw;
-    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    left: 100px;
 }
 
 .specchietto_cl:hover {
-    left: 60vw;
+    left: 300px;
     animation: mymoveSelection 2s;
 }
 
