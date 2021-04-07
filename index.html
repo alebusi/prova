@@ -1,12 +1,20 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Illustrator</title>
+    <!--<meta name="viewport" content="width=800px, user-scalable=no">-->
+    <title>Animazione</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div id="specchietto" class="specchietto_cl">
-</div>
+<body onkeydown="verTastoPremuto(event)">
+  <div id="elemento2" class="vuoto"></div>
+  <div class="animazione" onclick="cambioAnimazione()"></div>
+  <div class="guida" onclick="cambioGuida()"></div>
+  <div class="colore" onclick="cambioColore()"></div>
+  <div class="forma" onclick="cambioDimensione()"></div>
+  <div class="stile" onclick="cambioStile()"></div>
+  <div class="durata" onclick="cambioDurata()"></div>
+  <div id="elemento" style="border-radius: 100px;" class="orizzontale" onclick="cambioForma()"></div>
+  <div id="specchietto" class="specchietto_cl"></div>
+  <script src="animation.js"></script>
 </body>
 </html>
