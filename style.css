@@ -7,10 +7,5 @@
 }
 
 .specchietto_cl:hover {
-    animation: mymoveSelection 2s;
-}
-
-@keyframes mymoveSelection {
-  0%   {background-color: orange;}
-  100% {background-color: black;}
+    background-color: black;
 }
