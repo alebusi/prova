@@ -25,6 +25,14 @@ html, body {
     position: fixed;
 }
 
+.specchietto_cl {
+    top: 35vh;
+    left: 50vw;
+    width: 50vw;
+    height: 35vh;
+    position: fixed;
+}
+
 .colore, .forma, .stile, .durata {
     position: fixed;
     width: 25vw;
@@ -269,15 +277,6 @@ div:hover {
   100% {background-color: black;}
 }
 
-.specchietto_cl {
-    position: fixed;
-    background-color: blue;
-    top: 35vh;
-    left: 50vw;
-    width: 50vw;
-    height: 35vh;
-    position: fixed;
-}
 /*
 .specchietto_cl:hover {
     background-color: black;
